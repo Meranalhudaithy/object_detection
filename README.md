@@ -44,7 +44,7 @@ project/
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/Meranalhudaithy/object_detection.git
-cd object-tracker
+cd object-detection
 ```
 
 ### 2. Install Dependencies
