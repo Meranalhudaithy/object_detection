@@ -49,14 +49,14 @@ cd object-tracker
 
 ### 2. Install Dependencies
 ```bash
-pip install opencv-python torch torchvision pillow git+https://github.com/openai/CLIP.git
+pip install opencv-contrib-python torch torchvision pillow git+https://github.com/openai/CLIP.git
 ```
 
 ---
 
 ## How to Run
 ```bash
-python main.py
+python detect.py
 ```
 
 or just press the run button on the top left
