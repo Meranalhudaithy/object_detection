@@ -64,6 +64,12 @@ or just press the run button on the top left
 ![alt text](image-1.png)
 ---
 
+
+
+
+**the first time you run the code it will take time till the camera sets up because it is running and dowloading the dependancies for the first time ever**
+
+---
 ## How to Use
 
 1. Run the code  
