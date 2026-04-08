@@ -3,7 +3,10 @@
 ## Project description
 This project implements a **real-time object tracking system** using a webcam. The user selects an object in the first frame, and the system tracks it continuously in real time.
 
-In addition to tracking, this project includes an **extra enhancement using a Vision-Language Model (CLIP)** to classify the tracked object. This helps improve the system by giving semantic understanding of what is being tracked.
+
+bonus
+
+this project also has an **extra feature that is using a Vision-Language Model taht is (CLIP)** to classify the selected object. This helps improve the system by giving semantic understanding of what is being tracked.
 
 ---
 
@@ -12,7 +15,6 @@ In addition to tracking, this project includes an **extra enhancement using a Vi
 - Real-time tracking using OpenCV (CSRT Tracker)
 - Object classification using CLIP (VLM)
 - Live FPS display
-- Simple and interactive interface
 
 ---
 
@@ -41,7 +43,7 @@ project/
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-username/object-tracker.git
+git clone https://github.com/Meranalhudaithy/object_detection.git
 cd object-tracker
 ```
 
@@ -65,10 +67,9 @@ or just press the run button on the top left
 ## How to Use
 
 1. Run the code  
-2. Put the object you want to track in camra view
-3. Press Enter to confirm the frame  
-4. Draw a bounding box around the object  
-5. Press Enter again  
+2. Put the object you want to track in camra view  (you will have to wait for a while because it takes time to lode the photo frame no longer then 15 seconds tho)
+3. Draw a bounding box around the object  
+4. Press Enter again  
 
 code will then
 - Start real time tracking of object  
@@ -93,23 +94,6 @@ This elevates the code by adding semantic understanding not just tracking an obj
 
 ---
 
-
-
-## Output
-- Live webcam feed  
-- Bounding box tracking the object  
-- Predicted object label (e.g., "phone")  
-- FPS counter  
-
----
-
-## Assignment Requirements Covered
-This project satisfies the following:
-- Select an object using a bounding box  
-- Track the selected object in real time  
-- Display tracking results in a live video feed  
-
----
 
 ## Author
 Meran Alhudaithy
